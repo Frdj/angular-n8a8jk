@@ -1,0 +1,95 @@
+.seccion {
+    height: 100%;
+    position: relative;
+    top: 50px;
+    text-align: center;
+}
+
+.seccion div {
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.seccion div:hover {
+    cursor: pointer
+}
+
+.seccion div img {
+    transition: 0.5s;
+    border-radius: 5%;
+}
+
+.seccion div img:hover {
+    transform: scale(1.07, 1.07)
+}
+
+.card {
+    transition: 0.3s;
+    border: #98FF8B solid 1.2px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.card:hover {
+    box-shadow: 5px 5px 8px 5px #98FF8B;
+}
+
+.shadow {
+    box-shadow: 2px 2px 3px 4px #6D6D6D;
+}
+
+.mt {
+    margin-top: 0px;
+}
+
+i {
+    float: left
+}
+
+.centrado {
+    text-align: center
+}
+
+.aparecer {}
+
+.alert {
+    margin-top: 30px;
+    background-color: #BCFF8A;
+    padding: 20px;
+}
+
+.radius {
+    border-radius: 5px;
+}
+
+.divisor {
+    visibility: hidden;
+    height: 500px;
+    width: 1px;
+    background-color: green;
+    opacity: 0.7;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+@media only screen and (max-width: 910px) {
+    img {
+        height: 250px;
+        width: 250px;
+    }
+    .divisor {
+        display: none;
+        height: 250px
+    }
+}
+
+@media only screen and (max-width: 606px) {
+    img {
+        height: 150px;
+        width: 150px;
+    }
+    .aparecer .seccion {
+        margin-bottom: 35px;
+    }
+}

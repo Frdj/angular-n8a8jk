@@ -1,0 +1,34 @@
+    .buscar {
+        border: solid 0.5px;
+        border-top: solid 5px #98FF8B;
+        margin-top: 35px;
+        margin-left: 30%;
+        border-radius: 5px;
+        box-shadow: 2px 3px 10px #404040;
+        background-color: white;
+    }
+    
+    .border {
+        border: solid 1px;
+    }
+    
+    button {
+        margin-top: 10px;
+    }
+    
+    center {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .material-icons {
+        color: red;
+        display: block;
+    }
+    
+    @media only screen and (max-width: 910px) {
+        .buscar {
+            margin-left: 5%;
+            width: 90%;
+        }
+    }
